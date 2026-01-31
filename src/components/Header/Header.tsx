@@ -4,31 +4,37 @@ import styles from "./Header.module.css";
 
 export default function Header(): ReactElement {
   return (
-      <header className={styles.header}>
-        <img className="logo" src="/assets/logos/Logo.png" alt="swiftlogixtestwebstorm logo"/>
-        <nav>
-          <ul>
-            <li>
-              <a href="#">Services</a>
-            </li>
-            <li>
-              <a href="#">Home</a>
-            </li>
-            <li>
-              <a href="#">Pricing</a>
-            </li>
-            <li>
-              <a href="#">Track Shipment</a>
-            </li>
-            <li>
-              <a href="#">About Us</a>
-            </li>
-          </ul>
-        </nav>
-        <div className="actions">
-          <button>Login</button>
-          <button>Sing up</button>
-        </div>
-      </header>
+    <header className={styles.header}>
+      <img
+        className={styles.logo}
+        src="/assets/logos/Logo.png"
+        alt="Swiftlogix Logo"
+      />
+      <nav>
+        <ul>
+          <li>
+            <a href="#" className={styles.active}>
+              Home
+            </a>
+          </li>
+          <li>
+            <a href="#">Services</a>
+          </li>
+          <li>
+            <a href="#">Pricing</a>
+          </li>
+          <li>
+            <a href="#">Track Shipment</a>
+          </li>
+          <li>
+            <a href="#">About Us</a>
+          </li>
+        </ul>
+      </nav>
+      <div className={styles.actions}>
+        <button>Log In</button>
+        <button>Sign Up</button>
+      </div>
+    </header>
   );
-};
+}
