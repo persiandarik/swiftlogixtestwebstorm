@@ -3,13 +3,11 @@
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
-  inline-size: min(100% - 2rem, 75rem);
+
+  inline-size: min(75rem, 100% - 2rem);
+
   margin-inline: auto;
-
   padding-block: 2rem;
-
-  .logo {
-  }
 
   nav {
     ul {
@@ -36,9 +34,6 @@
 
   .actions {
     display: flex;
-    gap: 1rem;
-
-    button {
-    }
+    gap: 0.75rem;
   }
 }
