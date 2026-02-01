@@ -3,6 +3,10 @@
   justify-content: space-between;
   align-items: center;
   gap: 1rem;
+  inline-size: min(100% - 2rem, 75rem);
+  margin-inline: auto;
+
+  padding-block: 2rem;
 
   .logo {
   }
