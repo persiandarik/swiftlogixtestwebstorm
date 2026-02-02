@@ -1,14 +1,15 @@
-import type {ReactElement} from "react";
+import { ReactElement } from "react";
+
+import Button, { Variant } from "../Button/Button.tsx";
 
 import styles from "./Header.module.css";
-import Button, {Variant} from "../Button/Button.tsx";
 
 export default function Header(): ReactElement {
   return (
     <header className={styles.header}>
       <img
         className={styles.logo}
-        src="/assets/logos/Logo.png"
+        src="/assets/logos/logo.png"
         alt="Swiftlogix Logo"
       />
       <nav>

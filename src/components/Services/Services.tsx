@@ -1,4 +1,4 @@
-import type {ReactElement} from 'react';
+import { ReactElement } from "react";
 
 import styles from "./Services.module.css";
 import ServiceCard from "../ServiceCard/ServiceCard.tsx";
